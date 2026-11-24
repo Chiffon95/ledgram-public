@@ -14,8 +14,10 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 - 소프트 줄바꿈 없이 한글을 포함한 명시적 여러 줄 입력
 - 스마트폰, 태블릿, 폴더블 기기에서 부드러운 화면 방향 추적과 Lock/Unlock을 지원하는 몰입형 전체 화면 Display
 - 앱을 다시 실행해도 유지되는 Editor 설정
-- 저장된 미리보기와 상세 정보, 생성, 불러오기, 이름 변경, 명시적 덮어쓰기, 삭제, 불러오기 실행 취소 및 편집 가능한 초기 Default를 지원하는 로컬 프리셋 라이브러리
-- 새로 설치하면 Brand Amber에서 Pink로 이어지는 고정 가로 그라데이션으로 시작하며, 기존에 저장된 Editor 설정과 프리셋은 변경되지 않음
+- 미리보기와 상세 정보, 저장, 불러오기, 이름 변경, 격리된 직접 편집, 명시적 업데이트, 삭제, 불러오기 실행 취소 및 편집 가능한 초기 Default 화면을 지원하는 저장한 화면 목록
+- 저장한 LED 화면의 독립적인 복사본을 순서대로 재생하고 개별 편집, 순서 저장, 반복, 재생 시간, 일시정지/재생 및 Lock을 지원하는 연속 화면
+- 현재 Editor 화면, 저장한 화면 및 연속 화면을 기기에서 로컬로 MP4나 GIF로 만들고 계속 갱신되는 내보내기 미리보기, 화질 선택, 진행 상태, 취소, MediaStore 저장 및 Android Sharesheet 공유를 지원하는 내보내기
+- 새로 설치하면 Brand Amber에서 Pink로 이어지는 고정 가로 그라데이션으로 시작하며, 기존에 저장된 Editor 설정과 저장한 화면은 변경되지 않음
 - 시스템 기본값과 앱에서 직접 선택 가능한 14개 언어: 영어, 한국어, 일본어, 중국어 간체, 스페인어(스페인), 스페인어(라틴 아메리카), 포르투갈어(브라질), 프랑스어, 독일어, 이탈리아어, 인도네시아어, 베트남어, 태국어, 아랍어 및 아랍어 오른쪽에서 왼쪽으로 쓰기(RTL) 지원
 - 광고 없이 표시되는 전체 화면 Display와 계정·로그인 없이 바로 사용할 수 있는 구성
 - 필요한 지역에서 UMP 동의 및 개인정보 보호 옵션을 제공하는 Google Mobile Ads
@@ -30,9 +32,9 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 
 <img src="docs/play-store/screenshots/ko/02-gradient-patterns.png" alt="LEDgram 그라데이션 패턴 선택 화면" width="320">
 
-### 프리셋
+### 저장한 화면
 
-<img src="docs/play-store/screenshots/ko/03-presets.png" alt="LEDgram 로컬 프리셋 라이브러리" width="320">
+<img src="docs/play-store/screenshots/ko/03-presets.png" alt="LEDgram 저장한 화면 목록" width="320">
 
 ### 이동 및 시각 효과
 
@@ -46,6 +48,14 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 
 <img src="docs/play-store/screenshots/ko/06-dot-matrix.png" alt="LEDgram Dot Matrix 전체 화면 Display" width="640">
 
+### 연속 화면
+
+<img src="docs/play-store/screenshots/ko/07-sequences.png" alt="LEDgram 연속 화면 목록" width="320">
+
+### 내보내기
+
+<img src="docs/play-store/screenshots/ko/08-export.png" alt="실시간 미리보기가 포함된 LEDgram MP4 및 GIF 내보내기 화면" width="320">
+
 ## 기술 구성
 
 - Kotlin 2.4.21
@@ -56,18 +66,22 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 
 ## 출시 상태
 
-- **게시된 버전:** 1.2.0 (26), Google Play에서 제공 중
+- **게시된 버전:** 1.5.0 / 29, Google Play에서 제공 중
 - **설치:** [Google Play에서 LEDgram 설치하기](https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram)
 
 ## 개발자
 
 LEDgram은 **Gwol Labs**에서 개발합니다.
 
+## 저장소 범위
+
+LEDgram 공개 문서와 Google Play 스토어 자료는 [`Chiffon95/ledgram-public`](https://github.com/Chiffon95/ledgram-public)에 게시합니다. Android 애플리케이션 소스 코드는 비공개로 관리합니다.
+
 ## 링크
 
-- [공개 웹사이트](https://chiffon95.github.io/ledgram-pages/)
-- [개인정보 처리방침 — 영어](https://chiffon95.github.io/ledgram-pages/privacy/)
-- [개인정보 처리방침 — 한국어](https://chiffon95.github.io/ledgram-pages/privacy/ko.html)
+- [공식 웹사이트](https://gwollabs.dev/apps/ledgram/)
+- [개인정보 처리방침 — 영어](https://gwollabs.dev/apps/ledgram/privacy/)
+- [개인정보 처리방침 — 한국어](https://gwollabs.dev/apps/ledgram/privacy/ko.html)
 
 ## 라이선스
 

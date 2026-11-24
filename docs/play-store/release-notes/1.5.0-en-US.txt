@@ -1,0 +1,4 @@
+• Added MP4 and GIF export for LED displays.
+• Export the current display, Saved Displays, or an entire Sequence.
+• Added export preview, quality options, progress, cancellation, and sharing.
+• Improved GIF smoothness and timing for moving text and Sequences.

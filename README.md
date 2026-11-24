@@ -14,8 +14,10 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 - Explicit multiline input without soft wrapping, including Hangul text
 - Immersive full-screen Display with smooth orientation following and Lock/Unlock controls on phones, tablets, and foldables
 - Editor settings preserved between sessions
-- Local preset library with saved previews, details, create, load, rename, explicit overwrite, delete, load Undo, and an editable initial Default preset
-- New installations start with a static horizontal Brand Amber-to-Pink gradient; existing saved Editor configurations and presets remain unchanged
+- Saved Displays library with previews, details, save, load, rename, direct isolated editing, explicit update, delete, load Undo, and an editable initial Default display
+- Sequences that play independent copies of saved LED displays in order, with item editing, persistent reordering, repeat, playback timing, Pause/Resume, and Lock integration
+- Local MP4 and GIF export for the current Editor display, Saved Displays, and Sequences, with a continuously updating Export preview, quality options, progress, cancellation, MediaStore saving, and sharing through the Android Sharesheet
+- New installations start with a static horizontal Brand Amber-to-Pink gradient; existing saved Editor configurations and saved displays remain unchanged
 - System Default plus 14 bundled selectable languages: English, Korean, Japanese, Simplified Chinese, Spanish (Spain), Spanish (Latin America), Portuguese (Brazil), French, German, Italian, Indonesian, Vietnamese, Thai, and Arabic with right-to-left layout support
 - Full-screen Display without ads and no account or login requirement
 - Google Mobile Ads with UMP consent and privacy options where applicable
@@ -30,9 +32,9 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 <img src="docs/play-store/screenshots/en/02-gradient-patterns.png" alt="LEDgram gradient pattern picker" width="320">
 
-### Presets
+### Saved Displays
 
-<img src="docs/play-store/screenshots/en/03-presets.png" alt="LEDgram local preset library" width="320">
+<img src="docs/play-store/screenshots/en/03-presets.png" alt="LEDgram Saved Displays library" width="320">
 
 ### Motion and effects
 
@@ -46,6 +48,14 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 <img src="docs/play-store/screenshots/en/06-dot-matrix.png" alt="LEDgram Dot Matrix full-screen display" width="640">
 
+### Sequences
+
+<img src="docs/play-store/screenshots/en/07-sequences.png" alt="LEDgram Sequences library" width="320">
+
+### Export
+
+<img src="docs/play-store/screenshots/en/08-export.png" alt="LEDgram MP4 and GIF Export screen with live preview" width="320">
+
 ## Technology
 
 - Kotlin 2.4.21
@@ -56,18 +66,22 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 ## Release status
 
-- **Published version:** 1.2.0 (26), available on Google Play
+- **Published version:** 1.5.0 / 29, available on Google Play
 - **Install:** [Get LEDgram on Google Play](https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram)
 
 ## Developer
 
 LEDgram is developed by **Gwol Labs**.
 
+## Repository scope
+
+Public LEDgram documentation and Google Play store assets are published in [`Chiffon95/ledgram-public`](https://github.com/Chiffon95/ledgram-public). The Android application source code is maintained privately.
+
 ## Links
 
-- [Public website](https://chiffon95.github.io/ledgram-pages/)
-- [Privacy Policy — English](https://chiffon95.github.io/ledgram-pages/privacy/)
-- [Privacy Policy — Korean](https://chiffon95.github.io/ledgram-pages/privacy/ko.html)
+- [Official website](https://gwollabs.dev/apps/ledgram/)
+- [Privacy Policy — English](https://gwollabs.dev/apps/ledgram/privacy/)
+- [Privacy Policy — Korean](https://gwollabs.dev/apps/ledgram/privacy/ko.html)
 
 ## License
 
