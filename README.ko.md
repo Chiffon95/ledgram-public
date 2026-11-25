@@ -20,7 +20,7 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 - 새로 설치하면 Brand Amber에서 Pink로 이어지는 고정 가로 그라데이션으로 시작하며, 기존에 저장된 Editor 설정과 저장한 화면은 변경되지 않음
 - 시스템 기본값과 앱에서 직접 선택 가능한 14개 언어: 영어, 한국어, 일본어, 중국어 간체, 스페인어(스페인), 스페인어(라틴 아메리카), 포르투갈어(브라질), 프랑스어, 독일어, 이탈리아어, 인도네시아어, 베트남어, 태국어, 아랍어 및 아랍어 오른쪽에서 왼쪽으로 쓰기(RTL) 지원
 - 광고 없이 표시되는 전체 화면 Display와 계정·로그인 없이 바로 사용할 수 있는 구성
-- 필요한 지역에서 UMP 동의 및 개인정보 보호 옵션을 제공하는 Google Mobile Ads
+- 필요한 지역에서 UMP 동의 및 개인정보 보호 옵션을 제공하며 맞춤형 광고 요청을 비활성화한 Google Mobile Ads
 
 ## 스크린샷
 
@@ -61,17 +61,22 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 - Kotlin 2.4.21
 - Jetpack Compose(BOM 2025.11.00) 및 Material 3
 - AndroidX DataStore 1.2.1 및 Android SDK 24–36
+- AndroidX Core 1.18.0, Activity Compose 1.13.0 및 AppCompat 1.8.0
 - Google Mobile Ads 25.5.0 및 UMP 4.0.0
 - Kotlin DSL 기반 Android Gradle Plugin 9.4.1 및 Gradle 9.8.0
 
 ## 출시 상태
 
-- **게시된 버전:** 1.5.1 / 30, Google Play에서 제공 중
+- **전체 출시를 위해 제출한 최신 버전:** 1.5.3 / 32. 출시가 시작되었으며 완료 여부는 독립적으로 확인되지 않았습니다.
+- **1.5.3:** UMP 동의 기능은 유지하면서 맞춤형 광고 요청을 전역적으로 비활성화했습니다.
+- **1.5.2:** Edge-to-Edge 적용 방식과 AndroidX 의존성을 업데이트하고, 키보드 위에 사용자 지정 색상 버튼이 표시되도록 수정했으며, 문의 이메일을 변경했습니다. Google Play의 Edge-to-Edge 권고는 계속 검토 중입니다.
 - **설치:** [Google Play에서 LEDgram 설치하기](https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram)
 
 ## 개발자
 
 LEDgram은 **Gwol Labs**에서 개발합니다.
+
+문의: [contact@gwollabs.dev](mailto:contact@gwollabs.dev)
 
 ## 저장소 범위
 

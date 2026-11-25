@@ -1,0 +1,3 @@
+Improved edge-to-edge display compatibility on newer Android versions.
+Fixed the Custom Color dialog so its actions stay visible above the keyboard.
+Updated the support contact and refreshed AndroidX dependencies.

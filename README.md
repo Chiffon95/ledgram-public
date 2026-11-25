@@ -20,7 +20,7 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 - New installations start with a static horizontal Brand Amber-to-Pink gradient; existing saved Editor configurations and saved displays remain unchanged
 - System Default plus 14 bundled selectable languages: English, Korean, Japanese, Simplified Chinese, Spanish (Spain), Spanish (Latin America), Portuguese (Brazil), French, German, Italian, Indonesian, Vietnamese, Thai, and Arabic with right-to-left layout support
 - Full-screen Display without ads and no account or login requirement
-- Google Mobile Ads with UMP consent and privacy options where applicable
+- Google Mobile Ads with UMP consent and privacy options where applicable; ad requests disable personalization
 
 ## Screenshots
 
@@ -61,17 +61,22 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 - Kotlin 2.4.21
 - Jetpack Compose (BOM 2025.11.00) and Material 3
 - AndroidX DataStore 1.2.1 and Android SDK 24–36
+- AndroidX Core 1.18.0, Activity Compose 1.13.0, and AppCompat 1.8.0
 - Google Mobile Ads 25.5.0 and UMP 4.0.0
 - Android Gradle Plugin 9.4.1 and Gradle 9.8.0 with Kotlin DSL
 
 ## Release status
 
-- **Published version:** 1.5.1 / 30, available on Google Play
+- **Latest version submitted for full rollout:** 1.5.3 / 32. Rollout has started; completion has not been independently verified.
+- **1.5.3:** Disabled personalized ad requests globally while retaining UMP consent.
+- **1.5.2:** Updated edge-to-edge integration and AndroidX dependencies, kept Custom Color actions visible above the keyboard, and updated the support email. Google Play edge-to-edge recommendations remain under review.
 - **Install:** [Get LEDgram on Google Play](https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram)
 
 ## Developer
 
 LEDgram is developed by **Gwol Labs**.
+
+Support: [contact@gwollabs.dev](mailto:contact@gwollabs.dev)
 
 ## Repository scope
 

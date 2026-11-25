@@ -1,0 +1,1 @@
+Improved privacy protection by disabling personalized ad requests.
